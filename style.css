@@ -1,0 +1,110 @@
+
+*,*::before,*::after{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+html {
+    scroll-behavior : smooth ;
+}
+
+img{
+    width : 100%;
+    height : auto;
+}
+
+a{
+    Text-decoration: none
+}
+
+body{
+    background-image: url('https://media.istockphoto.com/id/1308495169/vector/template-for-advertising-brochure-with-cartoon-of-happy-kids-laying-on-the-grass.jpg?s=612x612&w=0&k=20&c=OsAYRIyWg4QvXNgiWE3LgbU5np3DUekbwZkTjnMeYU4=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.heading{
+    text-align: center;
+}
+
+.btn{
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid blue;
+    background-color: rgb(224, 224, 244);
+    font-weight: 900;
+    size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgb(7, 7, 77);
+    margin: 1rem 0rem;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+.numberInput{
+    height: 2rem;
+    width: 212px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(7, 7, 77);
+    padding-left: 5px;
+    margin-top: 1rem;
+    visibility: hidden;
+}
+
+.gameArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul{
+    padding-left: 1rem;
+    line-height: 2rem;
+}
+
+.communicationBox{
+    font-weight: bold;
+}
+
+.none{
+    visibility: hidden;
+}
+
+.highScoreContainer,.yourScoreContainer{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.guessBtn{
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
+}
+
+.instructionArea{
+    background-color: aliceblue;
+    /* visibility: collapse; */
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.heading{
+    margin: 1rem;
+}
