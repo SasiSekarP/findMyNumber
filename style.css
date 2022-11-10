@@ -85,7 +85,7 @@ ul{
 
 .highScoreContainer,.yourScoreContainer{
     display: flex;
-    width: 100px;
+    width: 120px;
     justify-content: space-between;
 }
 
